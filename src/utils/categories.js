@@ -6,8 +6,10 @@ export const categories = [
   { id: "bills", name: "Bills", icon: "📄", color: "#f59e0b" },
   { id: "health", name: "Health", icon: "🏥", color: "#10b981" },
   { id: "other", name: "Other", icon: "📦", color: "#6b7280" },
-]
+];
 
 export function getCategoryById(id) {
-  return categories.find((cat) => cat.id === id) || categories[categories.length - 1]
+  return (
+    categories.find((cat) => cat.id === id) || categories[categories.length - 1]
+  );
 }
