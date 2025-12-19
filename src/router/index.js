@@ -34,6 +34,7 @@ import Expenses from '@/pages/Expenses.vue'
 import Analytics from '@/pages/Analytics.vue'
 import Settings from '@/pages/Settings.vue'
 import AppLayout from '@/components/AppLayout.vue'
+import '../styles.css'
 
 const routes = [
   {
